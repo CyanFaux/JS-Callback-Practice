@@ -11,7 +11,4 @@ move(newItem("assets/shield.png")).to(165, 335);
 move(newItem("assets/staff.png")).to(600, 250);
 
 const character = newImage('assets/green-character/static.gif')
-let direction = null;
-let x = 100;
-let y = 250;
 move(character).withArrowKeys(100, 250)
